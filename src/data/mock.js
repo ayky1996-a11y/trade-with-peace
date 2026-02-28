@@ -140,11 +140,15 @@ export const mockData = {
     subscriberCount: "5000+",
     telegramLink: "https://t.me/trade_with_PEACE1",
     instagramLink: "https://www.instagram.com/trade_with_peace2025?igsh=aGRiOXJsYmMwdDhm&utm_source=qr",
-    instagramQR: "https://customer-assets.emergentagent.com/job_calm-trader-hub/artifacts/x8b50qly_trade_with_peace2025_qr.png"
+    instagramQR: "https://customer-assets.emergentagent.com/job_calm-trader-hub/artifacts/x8b50qly_trade_with_peace2025_qr.png",
+    youtubeLink: "https://youtube.com/@trade_with_peace?si=ABXT11zjnCLDSpCs"
   },
 
   footer: {
     disclaimer: "Educational Purpose Only. Trading involves risk. Please consult with a financial advisor before making investment decisions.",
-    email: "abhayyadav@tradewithpeace.com"
+    email: "abhayyadav@tradewithpeace.com",
+    telegramLink: "https://t.me/trade_with_PEACE1",
+    instagramLink: "https://www.instagram.com/trade_with_peace2025?igsh=aGRiOXJsYmMwdDhm&utm_source=qr",
+    youtubeLink: "https://youtube.com/@trade_with_peace?si=ABXT11zjnCLDSpCs"
   }
 };

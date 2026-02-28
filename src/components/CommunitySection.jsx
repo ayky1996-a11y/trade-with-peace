@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
-import { Send, Users, MessageCircle } from 'lucide-react';
+import { Send, Users, MessageCircle, Youtube } from 'lucide-react';
 import { toast } from 'sonner';
 
 const CommunitySection = ({ data }) => {
@@ -116,6 +116,26 @@ const CommunitySection = ({ data }) => {
                   onClick={() => window.open(data.instagramLink, '_blank')}
                 >
                   Follow on Instagram
+                </Button>
+              </div>
+
+              {/* YouTube */}
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 hover:bg-white/15 transition-all">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-red-700 rounded-xl flex items-center justify-center">
+                    <Youtube size={24} className="text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold">YouTube Channel</h4>
+                    <p className="text-sm text-slate-300">Video tutorials & live streams</p>
+                  </div>
+                </div>
+                <Button
+                  className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold"
+                  onClick={() => window.open(data.youtubeLink, '_blank')}
+                >
+                  <Youtube size={18} className="mr-2" />
+                  Watch on YouTube
                 </Button>
               </div>
             </div>

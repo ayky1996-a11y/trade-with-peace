@@ -28,8 +28,8 @@ export const mockData = {
     content: "Most traders lose money because of emotions and lack of discipline. My mission is to simplify trading, focus on risk control, and help you grow steadily without stress. I believe consistency and psychology matter more than hype.",
     image: "https://images.pexels.com/photos/5833752/pexels-photo-5833752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     stats: [
-      { value: "5000+", label: "Community Members" },
-      { value: "500+", label: "Success Stories" },
+      { value: "500+", label: "Community Members" },
+      { value: "15+", label: "Success Stories" },
       { value: "3+", label: "Years Experience" }
     ]
   },
@@ -137,7 +137,7 @@ export const mockData = {
   ],
 
   community: {
-    subscriberCount: "5000+",
+    subscriberCount: "500+",
     telegramLink: "https://t.me/trade_with_PEACE1",
     instagramLink: "https://www.instagram.com/trade_with_peace2025?igsh=aGRiOXJsYmMwdDhm&utm_source=qr",
     instagramQR: "https://customer-assets.emergentagent.com/job_calm-trader-hub/artifacts/x8b50qly_trade_with_peace2025_qr.png",

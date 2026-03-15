@@ -91,7 +91,7 @@ const HeroSection = ({ data }) => {
                   <TrendingUp className="text-white" size={24} />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold text-slate-900 dark:text-white">5000+</p>
+                  <p className="text-2xl font-bold text-slate-900 dark:text-white">500+</p>
                   <p className="text-sm text-slate-600 dark:text-slate-400">Active Traders</p>
                 </div>
               </div>
